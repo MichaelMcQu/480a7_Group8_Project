@@ -43,19 +43,3 @@ if __name__ == "__main__":
     label1='cloudfoundary 2018–2019',
     label2='cloudfoundary 2021–2022'
     )
-
-    # electron time to merge
-    plot_merge_time_by_month(
-    'data/electron_merge_time_2018.csv',
-    'data/electron_merge_time_2021.csv',
-    label1='electron 2018–2019',
-    label2='electron 2021–2022'
-    )
-
-    # architect time to merge
-    plot_merge_time_by_month(
-    'data/architect_merge_time_2018.csv',
-    'data/architect_merge_time_2021.csv',
-    label1='Architect 2018–2019',
-    label2='Architect 2021–2022'
-    )
