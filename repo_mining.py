@@ -54,7 +54,6 @@ def find_time_to_merge(repo_url, since, to, output_csv):
 
 
 if __name__ == "__main__":
-    from datetime import datetime
 
     dt1 = datetime(2018, 1, 1)
     dt2 = datetime(2019, 1, 1)
