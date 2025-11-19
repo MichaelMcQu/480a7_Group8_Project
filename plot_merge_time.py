@@ -52,6 +52,7 @@ if __name__ == "__main__":
     label2='electron 2021–2022'
     )
 
+    # architect
     plot_merge_time_by_month(
     'Data/architect_merge_time_2018.csv',
     'Data/architect_merge_time_2021.csv',
