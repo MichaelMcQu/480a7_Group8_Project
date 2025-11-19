@@ -14,3 +14,9 @@ The purpose of this experiemnt was to see the potential ways productivity might 
 * From there run the second Python script named plot_merge_time.py, plot_commit_frequency.py this is how we plotted the data using matplotlib (Note: the name of the file should match the strings being passed referencing the CSVs)
 * The output from the Python script should be a plotted graph representing the corrolation between hours or time it took to merge a PR during a specific month within the year.
 * These steps are repeated to find get the data for commit frequency
+
+## Repositories selects(arbitrary)
+
+* Repo 1 https://github.com/architect/architect
+* Repo 2 https://github.com/cloudfoundry/bosh
+* Repo 3 https://github.com/electron/electron
