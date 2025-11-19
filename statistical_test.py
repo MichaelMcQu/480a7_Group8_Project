@@ -12,6 +12,6 @@ print(f"Statistic = {stat}")
 print(f"P-value   = {p}")
 
 if p > 0.05:
-    print("Fail to reject null hypothesis data is normally distributed.")
+    print("Fail to reject null hypothesis data is normally distributed. You should use a t-test")
 else:
-    print("Reject null hypothesis data is not normally distributed.")
+    print("Reject null hypothesis data is not normally distributed. You should use a Mann-Whitney test")
