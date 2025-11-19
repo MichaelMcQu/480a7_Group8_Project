@@ -10,7 +10,7 @@ The purpose of this experiemnt was to see the potential ways productivity might 
 
 * Clone repository and be sure that youre using either a verson of Python that is before version 3.10 or set up a virtual Python enviroment (venv)
 * Install Pydriller, matplotlib, and Pandas
-* Once scripts are loaded into desired IDE run the Python script repo_mining.py to get the data into a .csv file
-* From there run the second Python script named graph_script.py this is how we plotted the data using matplotlib (Note: the name of the file should match the strings being passed referencing the CSVs)
+* Once scripts are loaded into desired IDE run the Python script merge_time.py to get the data into a .csv file
+* From there run the second Python script named plot_merge_time.py this is how we plotted the data using matplotlib (Note: the name of the file should match the strings being passed referencing the CSVs)
 * The output from the Python script should be a plotted graph representing the corrolation between hours or time it took to merge a PR during a specific month within the year.
 * These steps are repeated to find get the data for commit frequency
