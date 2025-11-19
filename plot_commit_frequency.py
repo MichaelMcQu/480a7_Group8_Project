@@ -33,24 +33,24 @@ def plot_commit_frequency_by_month(csv1, csv2=None, label1='Repo 1', label2='Rep
 if __name__ == "__main__":
     # Architect commit frequency
     plot_commit_frequency_by_month(
-    'Data/architect_commit_frequency_2018.csv',
-    'Data/architect_commit_frequency_2021.csv',
+    'data/architect_commit_frequency_2018.csv',
+    'data/architect_commit_frequency_2021.csv',
     label1='Architect 2018–2019',
     label2='Architect 2021–2022'
     )
 
     # cloudfoundary commit frequency
     plot_commit_frequency_by_month(
-    'Data/cloudfoundary_commit_frequency_2018.csv',
-    'Data/cloudfoundary_commit_frequency_2021.csv',
+    'data/cloudfoundary_commit_frequency_2018.csv',
+    'data/cloudfoundary_commit_frequency_2021.csv',
     label1='cloudfoundary 2018–2019',
     label2='cloudfoundary 2021–2022'
     )
 
     # electron commit frequency
     plot_commit_frequency_by_month(
-    'Data/electron_commit_frequency_2018.csv',
-    'Data/electron_commit_frequency_2021.csv',
+    'data/electron_commit_frequency_2018.csv',
+    'data/electron_commit_frequency_2021.csv',
     label1='electron 2018–2019',
     label2='electron 2021–2022'
     )

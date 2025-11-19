@@ -38,24 +38,24 @@ def plot_merge_time_by_month(csv1, csv2, label1='Repo 1', label2='Repo 2'):
 if __name__ == "__main__":
     # cloudfoundary time to merge
     plot_merge_time_by_month(
-    'Data/cloudfoundary_merge_time_2018.csv',
-    'Data/cloudfoundary_merge_time_2021.csv',
+    'data/cloudfoundary_merge_time_2018.csv',
+    'data/cloudfoundary_merge_time_2021.csv',
     label1='cloudfoundary 2018–2019',
     label2='cloudfoundary 2021–2022'
     )
 
     # electron time to merge
     plot_merge_time_by_month(
-    'Data/electron_merge_time_2018.csv',
-    'Data/electron_merge_time_2021.csv',
+    'data/electron_merge_time_2018.csv',
+    'data/electron_merge_time_2021.csv',
     label1='electron 2018–2019',
     label2='electron 2021–2022'
     )
 
     # architect time to merge
     plot_merge_time_by_month(
-    'Data/architect_merge_time_2018.csv',
-    'Data/architect_merge_time_2021.csv',
+    'data/architect_merge_time_2018.csv',
+    'data/architect_merge_time_2021.csv',
     label1='Architect 2018–2019',
     label2='Architect 2021–2022'
     )
