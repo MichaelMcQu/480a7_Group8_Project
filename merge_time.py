@@ -54,21 +54,6 @@ def find_time_to_merge(repo_url, since, to, output_csv):
 
 
 if __name__ == "__main__":
-
-    # architect merge time
-    dt1 = datetime(2018, 1, 1)
-    dt2 = datetime(2019, 1, 1)
-    repo_url = 'https://github.com/architect/architect'
-    output_csv = 'architect_merge_time_2018.csv'
-
-    find_time_to_merge(repo_url, dt1, dt2, output_csv)
-
-    dt1 = datetime(2021, 1, 1)
-    dt2 = datetime(2022, 1, 1)
-    output_csv = 'architect_merge_time_2021.csv'
-
-    find_time_to_merge(repo_url, dt1, dt2, output_csv)
-    
     # cloudfoundary merge time
     dt1 = datetime(2018, 1, 1)
     dt2 = datetime(2019, 1, 1)
@@ -84,17 +69,4 @@ if __name__ == "__main__":
 
     find_time_to_merge(repo_url, dt1, dt2, output_csv)
 
-    # electron merge time 
-    dt1 = datetime(2018, 1, 1)
-    dt2 = datetime(2019, 1, 1)
-    repo_url = 'https://github.com/electron/electron'
-    output_csv = 'electron_merge_time_2018.csv'
-
-    find_time_to_merge(repo_url, dt1, dt2, output_csv)
-
-    dt1 = datetime(2021, 1, 1)
-    dt2 = datetime(2022, 1, 1)
-    output_csv = 'electron_merge_time_2021.csv'
-
-    find_time_to_merge(repo_url, dt1, dt2, output_csv)
 

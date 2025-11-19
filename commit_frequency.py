@@ -25,21 +25,6 @@ def find_commit_frequency(repo_url, since, to, output_csv):
             })
 
 if __name__ == "__main__":
-    
-    # architect commit frequency
-    dt1 = datetime(2018, 1, 1)
-    dt2 = datetime(2019, 1, 1)
-    repo_url = 'https://github.com/architect/architect'
-    output_csv = 'architect_commit_frequency_2018.csv'
-
-    find_commit_frequency(repo_url, dt1, dt2, output_csv)
-
-    dt1 = datetime(2021, 1, 1)
-    dt2 = datetime(2022, 1, 1)
-    output_csv = 'architect_commit_frequency_2021.csv'
-
-    find_commit_frequency(repo_url, dt1, dt2, output_csv)
-
     # cloudfoundary commit frequency
     dt1 = datetime(2018, 1, 1)
     dt2 = datetime(2019, 1, 1)
@@ -51,19 +36,5 @@ if __name__ == "__main__":
     dt1 = datetime(2021, 1, 1)
     dt2 = datetime(2022, 1, 1)
     output_csv = 'cloudfoundary_commit_frequency_2021.csv'
-
-    find_commit_frequency(repo_url, dt1, dt2, output_csv)
-
-    # electron commit frequency
-    dt1 = datetime(2018, 1, 1)
-    dt2 = datetime(2019, 1, 1)
-    repo_url = 'https://github.com/electron/electron'
-    output_csv = 'electron_commit_frequency_2018.csv'
-
-    find_commit_frequency(repo_url, dt1, dt2, output_csv)
-
-    dt1 = datetime(2021, 1, 1)
-    dt2 = datetime(2022, 1, 1)
-    output_csv = 'electron_commit_frequency_2021.csv'
 
     find_commit_frequency(repo_url, dt1, dt2, output_csv)
