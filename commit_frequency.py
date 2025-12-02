@@ -8,11 +8,10 @@ def find_commit_frequency(repo_url, since, to, output_csv):
 
     for commit in Repository(repo_url, since=dt1, to=dt2).traverse_commits():
         author = commit.author.name
-        date = commit.author_date.strftime('%Y-%m-%d')  # commit date (day granularity)
+        date = commit.author_date.strftime('%Y-%m-%d') 
         key = (author, date)
         commit_counts[key] = commit_counts.get(key, 0) + 1
 
-    # Write results to CSV
     with open(output_csv, 'w', newline='') as file:
         fieldnames = ['Author', 'Date', 'CommitCount']
         writer = csv.DictWriter(file, fieldnames=fieldnames)
