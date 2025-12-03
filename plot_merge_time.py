@@ -72,7 +72,6 @@ def boxplot_merge_time_by_yearmonth(csv1, csv2, label1='Repo 1', label2='Repo 2'
     plt.title("Merge Time Distribution by Year–Month")
     plt.grid(axis='y', linestyle='--', alpha=0.4)
 
-    plt.legend([label1, label2])
     plt.tight_layout()
     plt.show()
 

@@ -62,7 +62,6 @@ def boxplot_commit_frequency(csv1, csv2=None, label1='Repo 1', label2='Repo 2'):
             ha='right'
         )
 
-        plt.legend([label1, label2])
 
     plt.ylabel("Commits per day")
     plt.title("Commit Frequency Distribution by Year–Month")
